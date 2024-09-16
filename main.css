@@ -1,0 +1,678 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url("logos/logo9.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-transform: capitalize;
+}
+
+.header {
+    background-color: rgb(200, 200, 200, .8);
+    background-image: url("logos/logo7.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    position: fixed;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    top: 0rem;
+}
+
+#apple-menu:hover {
+    color: #fff;
+}
+
+#logo {
+    padding-left: 2rem;
+}
+
+#search {
+    padding-top: 1rem;
+}
+
+#icon {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    padding-right: 3rem;
+}
+
+#heart {
+    padding-right: 1rem;
+}
+
+#profile {
+    padding-left: 1rem;
+}
+
+#search-btn {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+
+
+    padding-left: 1rem;
+    display: none;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover {
+    background: rgb(0, 10, 5);
+    opacity: .5;
+}
+
+#info h3 {
+    font-size: 2rem;
+}
+
+#btn {
+    background: rgb(30, 150, 7);
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 6rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+#btn:hover {
+    font-size: 1rem;
+    color: black;
+}
+
+.subscription {
+    background-image: url("logos/logo15.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 50%;
+    height: 20rem;
+    padding-top: 5rem;
+}
+
+#btn-subscribe {
+    background: rgb(30, 150, 7);
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 6rem;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+#btn-subscribe:hover {
+    color: black;
+}
+
+#topic-subscription {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#input-email {
+    width: auto;
+    text-transform: none;
+}
+
+.trend .content {
+    padding-top: 4rem;
+    display: flex;
+}
+
+.trend .image {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    height: 18.9rem;
+    padding-left: 2rem;
+}
+
+.trend .image img {
+    width: 9rem;
+    height: 15rem;
+    padding: 1.5rem;
+}
+
+.trend .image img:hover {
+    padding-top: 1rem;
+}
+
+/*login*/
+.login {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgb(200, 200, 200, .5);
+    top: 0;
+    left: 20%;
+    padding-top: -15rem;
+    z-index: 100000;
+    height: 100%;
+    width: 100%;
+
+}
+
+.login.active {
+    left: 3000px;
+}
+
+.login form {
+    background: #fff;
+    border: #000;
+    width: 20rem;
+    padding: 1rem;
+    box-shadow: black;
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #000;
+    text-align: center;
+}
+
+#login-email,
+#login-password {
+    width: 90%;
+    margin: .4rem 0;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    color: #000;
+    text-transform: none;
+}
+
+.login label,
+input {
+    cursor: pointer;
+}
+
+#btn-submit {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: rgb(30, 150, 7);
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+.login form {
+    font-size: 1.4rem;
+}
+
+.login form p a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(30, 150, 7);
+}
+
+#close-login {
+    position: absolute;
+    top: 1.5rem;
+    left: 30.5rem;
+    font-size: 4rem;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/*
+end of login
+*/
+
+
+.iphone {
+    padding-top: 6rem;
+}
+
+.iphone .content {
+    background-color: #aaa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.iphone .box {
+    width: 10rem;
+
+}
+
+.iphone .box img {
+    width: 30vh;
+    height: 50vh;
+}
+
+.iphone .box img:hover {
+    transform: translateY(1rem);
+}
+
+#status {
+    justify-content: space-between;
+    text-align: center;
+}
+
+#status i {
+    padding-right: 1rem;
+}
+
+#status i:hover {
+    color: #fff;
+    background-color: rgb(30, 150, 7);
+}
+
+#topic {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ipad .content {
+    overflow-x: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.ipad .box {
+    width: 15rem;
+
+}
+
+.ipad .box img {
+    width: 45vh;
+    height: 55vh;
+}
+
+.ipad .box img:hover {
+    transform: translateY(1rem);
+}
+
+.macbook .content {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.macbook .box {
+    width: 15rem;
+
+}
+
+.macbook .box img {
+    width: 40vh;
+    height: 50vh;
+}
+
+.macbook .box img:hover {
+    transform: translateY(1rem);
+}
+
+.apple-watch .content {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.apple-watch .box {
+    width: 15rem;
+
+}
+
+.apple-watch .box img {
+    width: 40vh;
+    height: 50vh;
+}
+
+.apple-watch .box img:hover {
+    transform: translateY(1rem);
+}
+
+.airpods .content {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.airpods .box {
+    width: 15rem;
+
+}
+
+.airpods .box img {
+    width: 40vh;
+    height: 50vh;
+}
+
+.airpods .box img:hover {
+    transform: translateY(1rem);
+}
+
+.covers .content {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    background-color: rgb(200, 200, 200, .5);
+}
+
+.covers .box {
+    background-color: rgb(200, 200, 200, .5);
+    width: 10rem;
+
+}
+
+.covers .box img {
+    width: 30vh;
+    height: 50vh;
+}
+
+.covers .box img:hover {
+    transform: translateY(1rem);
+}
+
+
+.info .box-container .location .content {
+    display: grid;
+    text-decoration: none;
+    line-height: 2rem;
+    width: 10rem;
+}
+
+.info .box-container .location .content a {
+    text-decoration: none;
+    color: black;
+}
+
+.info .box-container .location .content a span:hover {
+    padding-left: 1rem;
+}
+
+
+.info .box-container .location .content a i {
+    color: rgb(30, 150, 7);
+    padding-right: 1rem;
+}
+
+.info .box-container .links .content {
+    display: grid;
+    text-decoration: none;
+    line-height: 2rem;
+    width: 10rem;
+}
+
+.info .box-container .links .content a {
+    text-decoration: none;
+    color: black;
+}
+
+.info .box-container .links .content a span:hover {
+    padding-left: 1rem;
+}
+
+.info .box-container .links .content a i {
+    color: rgb(30, 150, 7);
+    padding-right: 1rem;
+}
+
+.info .box-container .Extra-Links .content {
+    display: grid;
+    text-decoration: none;
+    line-height: 2rem;
+    width: 10rem;
+
+}
+
+.info .box-container .Extra-Links .content a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.info .box-container .Extra-Links .content a span:hover {
+    padding-left: 1rem;
+}
+
+.info .box-container .Extra-Links .content a i {
+    color: rgb(30, 150, 7);
+    padding-right: 1rem;
+}
+
+.info .box-container .contact-info .content {
+    display: grid;
+    text-decoration: none;
+    line-height: 2rem;
+
+}
+
+.info .box-container .contact-info .content a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+}
+
+.info .box-container .contact-info .content a span:hover {
+    padding-left: 1rem;
+}
+
+.info .box-container .contact-info .content a i {
+    color: rgb(30, 150, 7);
+    padding-right: 1rem;
+}
+
+
+
+.info .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    justify-content: space-between;
+    word-spacing: normal;
+}
+
+.info #topic {
+    font-size: 1.2rem;
+    text-align: start;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+#social-media {
+    text-align: center;
+    word-spacing: 1rem;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: rgb(30, 150, 7);
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer p a {
+
+    text-decoration: none;
+    color: rgb(30, 150, 7);
+}
+
+.iphone {
+    padding-top: auto;
+}
+
+.featured .content {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    white-space: 1rem;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.featured .box {
+    padding: 2rem;
+    width: 20rem;
+    border-spacing: 1rem;
+    background: rgb(200, 200, 200, .5);
+    padding: 2rem;
+    border-color: red;
+    border-width: 5rem;
+
+}
+
+.featured .box img {
+    width: 30vh;
+    height: 50vh;
+}
+
+.featured .box img:hover {
+    transform: translateY(1rem);
+}
+
+.iphone {
+    padding-top: auto;
+}
+
+.arrival .content {
+
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    white-space: 2rem;
+}
+
+.arrival .box {
+    padding: 2rem;
+    width: 10rem;
+    background-color: rgb(200, 200, 200, .5);
+
+}
+
+.arrival .box img {
+    width: 30vh;
+    height: 50vh;
+}
+
+.arrival .box img:hover {
+    transform: translateY(1rem);
+}
+
+/*slider*/
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-top: 0rem;
+    
+}
+
+
+.swiper-slide {
+   position: relative;
+    text-align: center;
+    font-size: 1rem;
+    background: linear-gradient(65deg, #000 3%, #fff 30.1%); 
+    justify-content: center;
+    align-items: center;
+    border-bottom: #000;
+    top: -5rem;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 13rem;
+    height: 17rem;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-top: 7rem;
+}
+
+.swiper-slide #status{
+    transform: translateY(-100%);       
+    
+}
+.swiper-slide:hover #status{
+    transform: translateY(7rem);
+    
+}
+.swiper-slide span h3{
+    text-decoration: line-through;
+}
+
+
+.loader-container{
+    position: fixed;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100000;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loader-container.active{
+    display: none;
+}
+
+.loader-container img{
+    height: 20rem;
+
+}
